@@ -22,7 +22,6 @@ def test_median_avg():
     else:
         assert logging.warning('failed!!')
 
-
 def test_print():
     try:
         print_all_dicts(data_set, 23)
