@@ -86,6 +86,7 @@ def main():
     print(dict_median_avg)
     print("--------------------------------------")
 
+    
     # 3  check print values
     print("\nFunc3 to print all dicts")
     print_all_dicts(data_set)
