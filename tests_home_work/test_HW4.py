@@ -55,7 +55,6 @@ def test_le():
         logging.warning('tests failed  data1 is bigger or equal')
         assert d1 <= d2
 
-
 def test_ge():
     if d1 >= d2:
         assert d1 >= d2
