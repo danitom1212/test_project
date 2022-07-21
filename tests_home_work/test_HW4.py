@@ -103,36 +103,3 @@ def test_get_next_days():
         logging.error("Check date ")
 
 
-import pytest
-from py import test
-
-
-def sum(a, b):
-    return a + b
-
-
-def test_sum1():
-    a = 8
-    b = 7
-    c = a + b
-    assert c == 15
-
-
-def test_sum2():
-    a = "a"
-    b = "b"
-    c = a + b
-    if c == "abc":
-        assert c == "abc"
-    else:
-        logging.warning('This is a warning message')
-
-
-def test_sum3():
-    a = "a"
-    b = "b"
-    c = b + a
-    if c == "ab":
-        assert c == "ab"
-    else:
-        logging.warning('This is a warning message')
